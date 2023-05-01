@@ -10,12 +10,22 @@
   <h1 id="title">Survey Form</h1>
   <p id="description">This is a survey form</p>
   <form id="survey-form" action="index.html">
+    <label id="name-label-">Name</label>
     <input type="text" id="name" >
+    <label id="email-label">Email</label>
     <input type="email" id="email">
+    <label id="number-label">Phone number</label>
     <input type="number" id="number" min="0" max="9">
-    <label id="name-label-"></label>
-    <label id="email-label"></label>
-    <label id="number-label"></label>
+    <select name="" id="dropdown">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+    </select>
+    <label for="rotweiler"></label>
+    <input type="radio" name="dogNames" id="rotweiler" value="Rotweiler">
+    <label for="dobberman"></label>
+    <input type="radio" name="dogNames" id="dobberman" value="Dobberman">
+    
+    
   </form>
 </body>
 </html>
