@@ -8,5 +8,6 @@
 </head>
 <body>
   <h1 id="title">Survey Form</h1>
+  <p id="description">This is a survey form</p>
 </body>
 </html>
